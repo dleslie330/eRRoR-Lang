@@ -12,3 +12,8 @@ TO-DO:
 
 	Create the compiler for the language
 		Create the Lexer to create tokens
+            Re-learn classes and why my variables aren't working.
+            Open a file and read it line by line to create tokens.
+            Write these tokens into another file.
+        Decide if it is going to translate into c++ code or assembly language
+        code
