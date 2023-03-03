@@ -34,17 +34,13 @@ TO-DO:
 
 	Create the compiler for the language
 		Create the Lexer to create tokens
-<<<<<<< HEAD
             Re-learn classes and why my variables aren't working.
             Open a file and read it line by line to create tokens.
             Write these tokens into another file.
         Decide if it is going to translate into c++ code or assembly language
         code
-=======
 		Create a syntax analyzer
 			Design the Grammar
 		Create a Semantic Analyzer
 			Understand and implement error handling
 		Generate either assembly code or c++ code from eRRoR Lang code
-
->>>>>>>
