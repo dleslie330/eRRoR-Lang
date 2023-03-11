@@ -8,14 +8,13 @@
 class Lexer{
     public:
         Lexer();
+        ~Lexer();
         void readTokens();
         void writeTokens();
-
-    private:
         std::string text;
         std::string filename;
         std::string writefile;
-        ifstream MyReadFile;
+        std::fstream MyReadFile;
 };
 
 #endif

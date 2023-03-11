@@ -2,16 +2,20 @@
 #include "lexer.h"
 
 Lexer::Lexer(){
-    this.text = NULL;
-    this.filename = "testfile.txt";
-    this.writefile = "testfiletokens.txt";
-    this.MyReadFile.open(filename);
-    this.readTokens();
+    text = "";
+    filename = "testfile.txt";
+    writefile = "testfiletokens.txt";
+    MyReadFile.open(filename);
+    readTokens();
+};
+
+Lexer::~Lexer(){
+    MyReadFile.close();
 };
 
 void Lexer::readTokens(){
-    while(getline(this.MyReadFile, text)){
-        cout << text;
+    while(getline(MyReadFile, text)){
+        std::cout << text;
     }
 };
 

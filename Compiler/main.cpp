@@ -1,8 +1,9 @@
 #include <iostream>
 #include "lexer.h"
 
-int main(){
-    Lexer lexer = Lexer();
-    return 0;
+using namespace std;
 
+int main(){
+    Lexer lexer;
+    return 0;
 }
