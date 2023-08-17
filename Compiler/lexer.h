@@ -4,6 +4,7 @@
 
 #include <fstream>
 #include <string>
+#include <set>
 
 class Lexer{
     public:
@@ -15,6 +16,8 @@ class Lexer{
         std::string filename;
         std::string writefile;
         std::fstream MyReadFile;
+        std::set<std::string> validtokens = {"!", "?", ":", ";", ".", ",", "error", "eRrror", "erRor", "erroR", "eRRor", "erRoR", "eRroR", "eRRoR", "Error", "ERror", "ErRor", "ErroR", "ERRor", "ErRoR", "ERroR", "ERRoR", "\""}
+
 };
 
 #endif
