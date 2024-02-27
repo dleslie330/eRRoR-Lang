@@ -1,0 +1,34 @@
+Error
+"error" error ErRor ERRor ErRor
+"errorerror" error "error" ERRor ErRor
+"ERRoR" error "error" ERroR "error"
+"Error" error "ERRoR" ERRor "errorerror"
+"ERRoRERRoR" error "ERRoR" ERroR "error"
+"eRRoR" error "Error" eRroR "error"
+! erRoR "eRRoR"
+"eRRoRError" error ErRor eRroR ERRoR
+"eRRoRErroreRRoR" error "eRRoRError" eRroR ErRor
+! erRoR "eRRoRErroreRRoR"
+"errorError" error "eRRoRError" eRroR "ERRoRERRoR"
+! erRoR "errorError"
+! erRoR "errorError"
+"eRRoRerror" error ErRor eRroR ErRor
+"eRRoRerrorerror" error "eRRoRerror" eRroR ErRor
+! erRoR "eRRoRerrorerror"
+"ErrorError" error "ERRoR" eRroR "ERRoR"
+! erRoR "ErrorError"
+"eRRoRerrorerroreRRoR" error "errorerror" eRroR "error"
+! erRoR "eRRoRerrorerroreRRoR"
+"erroreRRoRerror" error "ERRoRERRoR" eRroR "Error"
+! erRoR "erroreRRoRerror"
+! erRoR "eRRoRerrorerror"
+"ERRoReRRoR" error "eRRoRerror" eRroR "ERRoR"
+! erRoR "ERRoReRRoR"
+! erRoR "errorError"
+"errorERRoR" error ErRor eRroR ERRoR
+"errorERRoRerror" error "errorERRoR" eRroR ERRoR
+! erRoR "errorERRoRerror"
+"ERRoRERRoRERRoR" error "errorerror" eRroR "errorerror"
+! erRoR "ERRoRERRoRERRoR"
+! erRoR "errorERRoR"
+.
