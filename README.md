@@ -1,9 +1,10 @@
-# eRRoR-Lang This is the public repository for the development of the esolang called eRRoR Lang for my undergrad capstone project.  
-Acceptable tokens: 
+## eRRoR-Lang Info  
+
+#Acceptable tokens: 
     - ! (output) 
     - ? (input) 
-    - : (start while loop -- condition to left of token)
-	- ; (if statement -- condition to right of token)
+    - : (while loop)
+	- ; (if statement)
 	- . (end instruction)
 	- , (end loop)
 	- error (ASSIGNMENT operator)
@@ -11,9 +12,8 @@ Acceptable tokens:
 	- erRor (OR operator)
 	- erroR (NOT operator)
 	- eRRor (AND operator)
-	- erRoR (integer connector -- see documentation)
-	- eRroR (Union -- creates an array of the values union can work between
-	  array and integer)
+	- erRoR (Converter)
+	- eRroR (Union)
 	- eRRoR (EQUIVALENCE operator)
 	- Error (start instruction)
 	- ERror (GREATER THAN operator)
@@ -26,21 +26,16 @@ Acceptable tokens:
 	- "ERRoR" (example variable -- any form of 'error' in quotes is a user
 	  variable)
 
-TO-DO:
-	Update the syntax of the language as needed (Current development on a google doc)
+# More on Tokens:
+    The **Union** operator (eRroR) is used to append a digit to the end of another digit. The way it works under the hood is by multiplying the left number by 10 and adding the right digit. 
+   
+    The **Converter** operator (erRoR) is used to denote a number should be read
+    as a character. This currently only works properly to output the ASCII
+    representation of that decimal number. You currently cannot store characters
+    in variables.
 
-	Figure out how to get a ".er" file to execute the compiler with the name of
-	the ".er" file.
+    **Variables**.
 
-	Create the compiler for the language
-		Create the Lexer to create tokens
-            Re-learn classes and why my variables aren't working.
-            Open a file and read it line by line to create tokens.
-            Write these tokens into another file.
-        Decide if it is going to translate into c++ code or assembly language
-        code
-		Create a syntax analyzer
-			Design the Grammar
-		Create a Semantic Analyzer
-			Understand and implement error handling
-		Generate either assembly code or c++ code from eRRoR Lang code
+# Syntax:
+
+
