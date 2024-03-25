@@ -1,6 +1,6 @@
-## eRRoR-Lang Documentation 
+# eRRoR-Lang Documentation 
 
-# Acceptable tokens: 
+## Acceptable tokens: 
 - !
     - output 
 - ? 
@@ -48,13 +48,13 @@
 - "ERRoR" 
     - example variable -- any form of 'error' depicted above in quotes is a user variable
 
-# More on Tokens:
+## More on Tokens:
 The **Union** operator (eRroR) is used to append a digit to the end of another digit. The way it works under the hood is by multiplying the left number by 10 and adding the right digit. 
    
 The **Converter** operator (erRoR) is used to denote a number should be read as a character. This currently only works properly to output the ASCII representation of that decimal number. You currently cannot store characters in variables.
 
 **Variables**.
 
-# Syntax:
+## Syntax:
 
 
