@@ -63,4 +63,30 @@ User defined **Variables** can be used to store any integer value and reference 
 
 ## Syntax:
 
+Every eRRoR-Lang program must begin with **Error** and end with '**.**' (The start program and end program tokens).
 
+a **value** is either a variable, one token, or zero token.
+
+An **output statement** is the output token followed by either a convert statement or a value that you want to output.
+
+An **input statement** is the variable you want to use to store the input value followed by the input token.
+
+A **convert statement** is the converter token followed by the value you want to convert to a character for output.
+
+A **logic** is either a logic statement, compare statement, the not token followed by either a logic statement or a compare statement, the and token, or the or token.
+
+A **logic statement** is
+
+A **compare statement** is
+
+A **while** loop is
+
+A **if** block is
+
+An **assignment statement** is
+
+A **union statement** is
+
+An **addition statement** is
+
+A **multiplication statement** is
